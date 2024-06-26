@@ -2,4 +2,5 @@
 const genera = document.getElementById('genera')
 
 // Button ID annulla event
-const genera = document.getElementById('annulla')
+const annulla = document.getElementById('annulla')
+
