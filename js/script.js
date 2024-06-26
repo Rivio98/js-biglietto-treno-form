@@ -8,6 +8,13 @@ genera.addEventListener('click', function () {
     const nameSurname = document.getElementById('nameSurname').value
     const km = document.getElementById('km').value
     const ageSelect = document.getElementById('age-select').value
+    const fullPrice = km * 0.21
+    let discount = 0;
+    if (ageSelect === 'minorenne') {
+        discount = 20;
+    } else if (ageSelect === 'over65') {
+        discount = 40;
+    }
 })
 
-//creo una costante per i km  che l'utente deve fare, ai quali assegno il valore restituito da un form
+
