@@ -4,12 +4,10 @@
     padding: 10px;
     border-radius: 20px;
     width: 150px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 /* Card */
-.card {}
-
 
 .d-flex {
     display: flex;

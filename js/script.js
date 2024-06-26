@@ -16,7 +16,8 @@ genera.addEventListener('click', function () {
         discount = 40;
     }
     const discountPrice = fullPrice - (fullPrice * discount / 100);
-    console.log('Il costo è: ' + discountPrice.toFixed(2) + ' ' + 'Euro')
+    document.getElementById('prezzoBiglietto').innerHTML = discountPrice.toFixed(2) + ' ' + '&euro;'
+    document.getElementById('nomeUtente').innerHTML = nameSurname
 })
 
 
