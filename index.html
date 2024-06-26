@@ -9,8 +9,27 @@
 </head>
 
 <body>
-    <button id="genera"></button>
-    <button id="annulla"></button>
+    <div class="card m-10">
+        <div class="input-section d-flex">
+            <div class="name-surname m-10">
+                <input type="text" id="nameSurname">
+            </div>
+            <div class="distance m-10">
+                <input type="text" id="km">
+            </div>
+            <div class="age-section m-10">
+                <select name="age" id="age-select" aria-placeholder="Scegli la tua età">
+                    <option value="maggiorenne">maggiorenne</option>
+                    <option value="minorenne">minorenne</option>
+                    <option value="over65">over 65</option>
+                </select>
+            </div>
+        </div>
+        <div class="button-section m-10">
+            <button id="genera">Genera</button>
+            <button id="annulla">Annulla</button>
+        </div>
+    </div>
     <script src="./js/script.js"></script>
 </body>
 

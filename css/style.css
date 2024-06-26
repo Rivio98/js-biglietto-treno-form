@@ -1,0 +1,20 @@
+/* Button style */
+#genera,
+#annulla {
+    padding: 10px;
+    border-radius: 20px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+/* Card */
+.card {}
+
+
+.d-flex {
+    display: flex;
+}
+
+.m-10 {
+    margin: 10px;
+}
