@@ -15,6 +15,8 @@ genera.addEventListener('click', function () {
     } else if (ageSelect === 'over65') {
         discount = 40;
     }
+    const discountPrice = fullPrice - (fullPrice * discount / 100);
+    console.log('Il costo è: ' + discountPrice.toFixed(2) + ' ' + 'Euro')
 })
 
 
