@@ -20,4 +20,4 @@ genera.addEventListener('click', function () {
     document.getElementById('nomeUtente').innerHTML = nameSurname
 })
 
-
+// Button annulla event

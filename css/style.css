@@ -9,10 +9,24 @@
 
 /* Card */
 
+.card {
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+}
+
 .d-flex {
     display: flex;
 }
 
+.d-block {
+    display: block;
+}
+
 .m-10 {
     margin: 10px;
+}
+
+.info {
+    padding: 20px;
 }

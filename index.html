@@ -10,27 +10,33 @@
 
 <body>
     <div class="card m-10">
-        <div class="input-section d-flex">
-            <div class="name-surname m-10">
-                <input type="text" id="nameSurname">
+        <div class="section d-block">
+            <h1>Inserisci i tuoi dati</h1>
+            <form class="input-section d-flex">
+                <div class="name-surname m-10">
+                    <input type="text" id="nameSurname">
+                </div>
+                <div class="distance m-10">
+                    <input type="text" id="km">
+                </div>
+                <div class="age-section m-10">
+                    <select name="age" id="age-select" aria-placeholder="Scegli la tua età">
+                        <option value="maggiorenne">maggiorenne</option>
+                        <option value="minorenne">minorenne</option>
+                        <option value="over65">over 65</option>
+                    </select>
+                </div>
+                <button type="reset" id="annulla">Annulla</button>
+            </form>
+            <div class="button-section m-10 d-flex">
+                <button id="genera">Genera</button>
             </div>
-            <div class="distance m-10">
-                <input type="text" id="km">
+            <div class="info">
+                <div>
+                    <p>Il biglietto di <span id="nomeUtente"></span> ha il costo di : <span id="prezzoBiglietto"></span>
+                    </p>
+                </div>
             </div>
-            <div class="age-section m-10">
-                <select name="age" id="age-select" aria-placeholder="Scegli la tua età">
-                    <option value="maggiorenne">maggiorenne</option>
-                    <option value="minorenne">minorenne</option>
-                    <option value="over65">over 65</option>
-                </select>
-            </div>
-        </div>
-        <div class="button-section m-10">
-            <button id="genera">Genera</button>
-            <button id="annulla">Annulla</button>
-        </div>
-        <div>
-            <p>Il biglietto di <span id="nomeUtente"></span> ha il costo di : <span id="prezzoBiglietto"></span></p>
         </div>
     </div>
     <script src="./js/script.js"></script>
