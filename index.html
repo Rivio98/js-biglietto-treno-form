@@ -9,35 +9,38 @@
 </head>
 
 <body>
-    <div class="card m-10">
-        <div class="section d-block">
-            <h1>Inserisci i tuoi dati</h1>
-            <form class="input-section d-flex">
-                <div class="name-surname m-10">
-                    <input type="text" id="nameSurname">
-                </div>
-                <div class="distance m-10">
-                    <input type="text" id="km">
-                </div>
-                <div class="age-section m-10">
-                    <select name="age" id="age-select" aria-placeholder="Scegli la tua età">
-                        <option value="maggiorenne">maggiorenne</option>
-                        <option value="minorenne">minorenne</option>
-                        <option value="over65">over 65</option>
-                    </select>
-                </div>
-                <button type="reset" id="annulla">Annulla</button>
-            </form>
-            <div class="button-section m-10 d-flex">
-                <button id="genera">Genera</button>
-            </div>
-            <div class="info">
-                <div>
-                    <p>Il biglietto di <span id="nomeUtente"></span> ha il costo di : <span id="prezzoBiglietto"></span>
-                    </p>
-                </div>
-            </div>
+    <!-- <div class="card m-10">
+        <div class="section d-block"> -->
+    <h1>Inserisci i tuoi dati</h1>
+    <form class="d-flex">
+        <div class="name-surname m-10">
+            <label class="label namesurname">Nome e cognome passeggero:</label>
+            <input type="text" id="nameSurname" required placeholder="Nome e Cognome">
         </div>
+        <div class="distance m-10">
+            <label class="label distance">Distanza da percorrere in km:</label>
+            <input type="text" id="km" required placeholder="km del viaggio">
+        </div>
+        <div class="age-section m-10">
+            <label class="label your-age">La tua età è:</label>
+            <select name="age" id="age-select" aria-placeholder="Scegli la tua età" required>
+                <option value="maggiorenne">maggiorenne</option>
+                <option value="minorenne">minorenne</option>
+                <option value="over65">over 65</option>
+            </select>
+        </div>
+        <div class="button-section m-10 d-flex">
+            <button type="button" id="genera">Genera</button>
+            <button type="reset" id="annulla">Annulla</button>
+        </div>
+    </form>
+    <div class="info">
+        <div>
+            <p>Il biglietto di <span id="nomeUtente"></span> ha il costo di : <span id="prezzoBiglietto"></span>
+            </p>
+        </div>
+    </div>
+    </div>
     </div>
     <script src="./js/script.js"></script>
 </body>

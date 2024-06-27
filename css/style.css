@@ -30,3 +30,22 @@
 .info {
     padding: 20px;
 }
+
+.label {
+    background-color: cornflowerblue;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.name-surname,
+.distance,
+.age-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.

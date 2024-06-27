@@ -18,6 +18,7 @@ genera.addEventListener('click', function () {
     const discountPrice = fullPrice - (fullPrice * discount / 100);
     document.getElementById('prezzoBiglietto').innerHTML = discountPrice.toFixed(2) + ' ' + '&euro;'
     document.getElementById('nomeUtente').innerHTML = nameSurname
+    console.log(nameSurname, km, ageSelect, fullPrice, discount, discountPrice)
 })
 
 // Button annulla event
